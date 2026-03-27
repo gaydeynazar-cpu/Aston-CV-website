@@ -1,0 +1,88 @@
+/*setting h1 and h3 text colour to a white looking clour*/
+h1, h3{
+    color: aliceblue;
+}
+/*h2 will be orange as it's located inside the white background. Im also seeting the font to more modern-looking one*/
+/*all h2 headers will be displayed in the middle*/
+h2{
+    font-family: sans-serif;
+    color: orange;
+    text-align: center;
+}
+/*Setting up the background header to be the locally stored image file*/
+header{
+    background-image: url(../images/social\ media/Orange\ header.png);
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body{
+    font-family: sans-serif;
+    max-width: 1840px;
+}
+
+
+/*This doesn't change the appearance of the buttons but spaces the buttons across the screen width instead*/
+#button{
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+    text-align: center;
+    width: 100%;
+}
+/*This edits the appearance of the buttons to the orange fill and white font colour*/
+button, #Submit_button{
+    color: aliceblue;
+    background-color: orange;
+    border: none;
+    /*This code was a part of the research which allowed me to make buttons look like a prarallelogram by bending each angle by 30 degrees*/
+    transform: skew(-30deg);
+    -webkit-transform: skew(-30deg);
+    -o-transform: skew(-30deg);
+    -moz-transform: skew(-30deg);
+    -ms-transform: skew(-30deg);
+}
+/*Changes the font colour to dark orange whenever the button is hovered over*/
+button:hover, #Submit_button:hover{
+    color: orangered
+}
+/*hashtag allows me to reference to the id rather than tag*/
+
+/*Same thing as the header here*/
+#bottom{
+    background-image: url(../images/social\ media/city.png);
+    margin: 0 auto;
+    padding: 0 auto;
+}
+/*Changing the colour of any input box's border to solid orange*/
+input, textarea{
+    border-style: solid;
+    border-color: orange;
+}
+
+#UrLlinks{
+    width: 30%;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 75%;
+    margin: auto;
+    padding: auto;
+}
+th, td {
+    border: 3px solid orange;
+    padding: 8px;
+    text-align: left;
+}
+
+tr:hover {background-color: orange;}
+
+form{
+    text-align: center;
+    align-items: center;
+    border-color: orange;
+}
