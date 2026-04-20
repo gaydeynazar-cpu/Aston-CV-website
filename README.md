@@ -1,1 +1,4 @@
-
+# Aston CV website
+this is a website that i have created using PHP language. This website is used for students to write their cvs, share their links, and view other candidate's cvs so they can help each other providing ideas of how to make a thorough looking cv.
+# What this taught me
+First of all, it taught me the real value of the PHP language. Thanks to this project i understand the purpose of PHP and its importance towards the industrial background. It taught me how the connection between the website and a database works. I used a local server in the PHPMyAdmin to store a database that contains data of every single signed candidate such as their name, email, and their cv. It also stores a password, which taught me another thing, the importance of security implementation. I have used many security features such as password hashing, form validation, injection handling, Authorization and Authentication. It taught me that a standard website created in industry requires strong security to improve user's experience.
